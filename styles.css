@@ -476,8 +476,10 @@ p { margin: 0 0 1em; }
 
   .hero { align-items: center; }
   .hero__content { padding-bottom: 60px; }
+  .hero__img { left: 30%; width: 70%; object-position: center; }
+  .hero__title { font-size: clamp(4rem, 8vw, 7rem); }
   .hero__overlay {
-    background: linear-gradient(90deg, rgba(43,37,33,.88) 0%, rgba(43,37,33,.55) 45%, rgba(43,37,33,.1) 100%);
+    background: linear-gradient(90deg, #2b2521 0%, #2b2521 30%, rgba(43,37,33,.55) 48%, rgba(43,37,33,.05) 100%);
   }
   .hero__scroll { display: block; }
 
